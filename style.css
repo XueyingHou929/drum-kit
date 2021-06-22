@@ -1,7 +1,29 @@
 html {
-  background-color: lightblue;
-}
-
-img {
+  background: url('images/whiplash.png');
   background-size: cover;
+  background-position: bottom center;
+}
+.keys {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+.key {
+  color: white;
+  text-align: center;
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+}
+kbd {
+  display: block;
+}
+.sound {
+  font-size:  1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: white;
 }
